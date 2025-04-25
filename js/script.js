@@ -55,4 +55,4 @@ if (name.length >= 3 && email.includes('@.') && password.length >= 6 ) {
     console.log("Помилка: неправильне заповнення");
 }
 
-// name.length >= 3 && email.includes('@') && email.includes('.') && password.length >= 6 ? console.log("Перенаправлення на іншу сторінку") : console.log("Помилка: неправильне заповнення");
+// name.length >= 3 && email.includes('@.') && password.length >= 6 ? console.log("Перенаправлення на іншу сторінку") : console.log("Помилка: неправильне заповнення");
