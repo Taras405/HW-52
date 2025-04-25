@@ -49,7 +49,7 @@ const name = "Taki";
 const email = "tarassevcuk@gmail.com";
 const password = "qwerty";
 
-if (name.length >= 3 && email.includes('@') && email.includes('.') && password.length >= 6 ) {
+if (name.length >= 3 && email.includes('@.') && password.length >= 6 ) {
     console.log("Перенаправлення на іншу сторінку");
 } else {
     console.log("Помилка: неправильне заповнення");
